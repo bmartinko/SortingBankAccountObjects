@@ -24,6 +24,7 @@ public class Main {
 
         }
         Comparator comp = new BA_Comparator();
+
         Arrays.sort(ba, comp);
         for(j=0; j<ba.length;j++){
             System.out.println(ba[j].name + ">>>" + ba[j].balance);

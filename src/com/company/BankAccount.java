@@ -1,6 +1,6 @@
 package com.company;
 
-    public class BankAccount implements Comparable
+    public class BankAccount /*implements Comparable*/
     {
         public BankAccount(String nm, double bal)
         {
@@ -8,7 +8,7 @@ package com.company;
             balance = bal;
         }
 
-        public int compareTo(Object otherObject)
+        /*public int compareTo(Object otherObject)
         {
 
             BankAccount otherAccount = (BankAccount) otherObject;
@@ -30,7 +30,12 @@ package com.company;
             }
             return retValue;
 
-        }
+        }*/
+
+        /*public int compareTo(Object otherObject){
+            BankAccount otherAccount = (BankAccount) otherObject;
+            return name.compareTo(otherAccount.name);
+        } Sorting Bank Accounts Alphabetically*/
         public String name;
         public double balance;
     }

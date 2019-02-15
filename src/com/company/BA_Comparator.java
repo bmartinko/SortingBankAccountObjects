@@ -1,7 +1,7 @@
 package com.company;
 import java.util.*;
-public class BA_Comparator {
-    public class BA_comparator implements Comparator{
+
+    public class BA_Comparator implements Comparator {
         public int compare(Object firstObject, Object secondObject){
             BankAccount ba1 = (BankAccount)firstObject;
             BankAccount ba2 = (BankAccount)secondObject;
@@ -19,4 +19,4 @@ public class BA_Comparator {
             return retValue;
         }
     }
-}
+
